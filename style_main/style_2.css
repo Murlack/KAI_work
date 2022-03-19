@@ -680,6 +680,118 @@
 .doYOUHAVEQUES_boxes3{
     background-image: url(../img_main/doYOUHAVEQUES3.svg);
 }
+.GetAdvice{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #14161D;
+    border-radius: 27px;
+    margin-top: 130px;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    padding-left: 10px;
+}
+.GetAdvice_Box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.GetAdvice_Box1_h1{
+    font-family: var(--font-inter);
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 19px;
+}
+.GetAdvice_Box1_p{
+    font-family: var(--font-inter);
+    color: #fff;
+    font-size: 20px;
+}
+.GetAdvice_Box2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    
+    row-gap: 20px;
+}
+/* .GetAdvice_Box2_box_INPUTdasdad{
+    width: 43%;
+}
+.GetAdvice_Box2_box_INPUT2{
+    width: 100%;
+} */
+.GetAdvice_Box2_box_INPUTboxItem{
+    border: 2px solid #26282F;
+    background-color: rgba(0,0,0,0);
+    border-radius: 9px;
+    height: 57px;
+    vertical-align: middle;
+    padding: 0 10px 0 18px; 
+    color: #646464;
+    font-size: 16px;
+    font-family: var(--font-inter);
+}
+.GetAdvice_Box2_FLEX_wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 91%;
+    row-gap: 20px;
+}
+.GetAdvice_Box2_box_INPUT1{
+    width: 88%;
+}
+.GetAdvice_Box2_box_INPUT_BOXsize{
+    width: 56%;
+}
+.GetAdvice_Box2_box_INPUT3{
+    width: 100%;
+}
+.GetAdvice_Box2_box_INPUT{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    align-items: center;
+}
+.GetAdvice_Box2_box_INPUT4{
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+}
+.GetAdvice_Box2_box_P{
+    color: #fff;
+    font-size: 13px;
+    font-family: var(--font-inter);
+}
+.GetAdvice_Box2_box_INPUT_Submit{
+    color: #A0A0A0;
+    font-size: 20px;
+    font-family: var(--font-inter);
+    padding: 11px 57px 10px 57px;
+    background-color: #36393F;
+    border:none;
+    border-radius: 9px;
+}
+.GetAdvice_Box2_box_INPUT_displayTest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GetAdvice_Box2_box_INPUT_displayTest2{
+    display: flex;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+.GetAdvice_Box2_box_INPUT_MARGIN{
+    margin-right: 10px;
+}
 @media screen and (min-width:1900px){
     .doYOUHAVEQUES_boxe{
         width: 530px;
