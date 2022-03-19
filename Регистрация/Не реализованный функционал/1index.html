@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="1style.css" rel="stylesheet">
+	<title>страны список</title>
+</head>
+<body>
+	<div class="inputBoxText_list_country" id="inputBoxText_list_country">
+		<input type="text" class="input_list_country" id="input_list_country" placeholder="выбор страны" onclick="funHideBox(this)" oninput="constructSearch(document.querySelectorAll('.Hidden_inputBoxText_list_country_flex'), this.value)"> <!--oninput="constructSearch(document.querySelectorAll('.Hidden_inputBoxText_list_country_flex'), this.value)"-->
+	</div>
+	<div class="Hidden_inputBoxText_list_country" style="display: none;">
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Республика Беларусь" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img1 Hidden_inputBoxText_list_country_img"> </div>
+			<div class="Hidden_inputBoxText_list_country_text">Республика Беларусь</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Республика Казахстан" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img2 Hidden_inputBoxText_list_country_img"> </div>
+			<div class="Hidden_inputBoxText_list_country_text">Республика Казахстан</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Республика Молдова" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img3 Hidden_inputBoxText_list_country_img"> </div>
+			<div class="Hidden_inputBoxText_list_country_text">Республика Молдова</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Республика Армения" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img4 Hidden_inputBoxText_list_country_img"> </div>
+			<div class="Hidden_inputBoxText_list_country_text">Республика Армения</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Азербайджанская Республика" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img5 Hidden_inputBoxText_list_country_img"> </div>
+			<div class="Hidden_inputBoxText_list_country_text">Азербайджанская Республика</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Кыргызская Республика" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img6 Hidden_inputBoxText_list_country_img"> </div>
+			<div class="Hidden_inputBoxText_list_country_text">Кыргызская Республика</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Республика Таджикистан" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img7 Hidden_inputBoxText_list_country_img"> </div>
+			<div class="Hidden_inputBoxText_list_country_text">Республика Таджикистан</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Туркменистан" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img8 Hidden_inputBoxText_list_country_img"> </div>
+			<div class="Hidden_inputBoxText_list_country_text">Туркменистан</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Республика Узбекистан" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img9 Hidden_inputBoxText_list_country_img"> </div>
+			<div class="Hidden_inputBoxText_list_country_text">Республика Узбекистан</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Украина" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img10 Hidden_inputBoxText_list_country_img"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Украина</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Бруней" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img11 Hidden_inputBoxText_list_country_img"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Бруней</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Восточный Тимор" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img12 Hidden_inputBoxText_list_country_img"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Восточный Тимор</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Вьетнам" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img13 Hidden_inputBoxText_list_country_img"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Вьетнам</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Индонезия" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img14 Hidden_inputBoxText_list_country_img"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Индонезия</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Камбоджа" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img15 Hidden_inputBoxText_list_country_img"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Камбоджа</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Китай" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img16 Hidden_inputBoxText_list_country_img"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Китай</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Северная Корея" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img17 Hidden_inputBoxText_list_country_img"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Северная Корея</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Лаос" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img18 Hidden_inputBoxText_list_country_img"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Лаос</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Малайзия" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img19 Hidden_inputBoxText_list_country_img"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Малайзия</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Монголия" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img20 Hidden_inputBoxText_list_country_img"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Монголия</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Мьянма" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img21 Hidden_inputBoxText_list_country_img"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Мьянма</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Сингапур" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img22 Hidden_inputBoxText_list_country_img"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Сингапур</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Таиланд" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img23 Hidden_inputBoxText_list_country_img"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Таиланд</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Филиппины" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img24 Hidden_inputBoxText_list_country_img"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Филиппины</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Япония" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img25 Hidden_inputBoxText_list_country_img"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Япония</div></div>
+			<div class="Hidden_inputBoxText_list_country_flex" data-value="Другое" style="display: none;" onclick="funHideBoxTrue(this)"> <div class="Hidden_inputBoxText_list_country_img26none Hidden_inputBoxText_list_country_imgnone"></div>
+			<div class="Hidden_inputBoxText_list_country_text">Другое</div></div>
+	</div>
+	<script>
+		let arrOBJcont = [];
+		function constructSearch(objsData, inputEvent){
+			let dataStorage = '';
+			let r = 0;
+			let arr = [+inputEvent.length];
+			for(let y = 0 ; y < arrOBJcont.length; y++){
+				arrOBJcont[y].style.display = 'none';
+			}
+			for(let i = 0; i < objsData.length; i++){
+				dataStorage = objsData[i].getAttribute('data-value');
+				for(let l = 0; l < dataStorage.length; l++){
+					if(inputEvent[l] == dataStorage[l]){
+						arr[l] = inputEvent[l];
+						arrOBJcont[r] = objsData[i];
+						arrOBJcont[r].style.display = 'flex';
+						r++;
+						//funHideBox(inputEvent);
+						//alert(dataStorage);
+					}
+					else{
+						//objsData[i].style.display = 'none';
+						console.log(arr);
+						break;
+					}
+				}
+			}
+		}
+		function funHideBox(data = 'Нет выбора'){
+			let HiddenBox = document.querySelector(".Hidden_inputBoxText_list_country");
+			let input_list_country = document.querySelector(".input_list_country");
+			
+			if(HiddenBox.style.display == 'none'){
+				HiddenBox.style.display = "block";
+			}
+			else{
+				HiddenBox.style.display = 'none';
+				console.log(data);
+				
+				if (data == 'Другое'){
+					input_list_country.placeholder = 'Запущен ввод..';
+					input_list_country.value = "";
+					input_list_country.removeAttribute('onclick');
+				}
+				if(data == '[object HTMLInputElement]'){
+					return false;
+				}
+				else{
+					input_list_country.value = data+'';
+					console.log(input_list_country.value);
+				}
+			}
+		}
+		function funHideBoxTrue(obj){
+			let data = obj.getAttribute('data-value');
+			console.log(data);
+			funHideBox(data);
+		}
+	</script>
+</body>
+</html>

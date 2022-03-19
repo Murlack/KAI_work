@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Забыл пароль</title>
+        <link href="../img_main/fav_icon/Icon.svg" rel="icon" type="image/x-icon">
+        <link href="../style_main/login_base_style.css" rel="stylesheet">
+        <link href="../style_main/style_1.css" rel="stylesheet">
+    </head>
+    <body id="hend" class="indexEnterWindow">
+        <div class="main_block" id="main_block">
+            <div class="main_block_blok_TopMenu_flexBox">
+                <div class="main_block_blok_TopMenu">
+                    <a href="#" class="main_block_blok_TopMenu_Logo"> <img id="imgLogo" src="../img_main/mainICON_1.svg"  style="background-repeat: no-repeat;
+                                                                                                            background-size: contain;
+                                                                                                            width: 56px;
+                                                                                                            height: 56px;
+                                                                                                            " alt="лого нет"></a> <!--cursor:url(img/cursor_w.svg) 2 2 ,auto;-->
+                    <div class="main_block_blok_TopMenu_Addition">
+                        <div class="main_block_blok_TopMenu_Addition_theme_box"  style="display: none;">
+                            <input type="button" class="main_block_blok_TopMenu_Addition_theme_" id="theme" onclick="clickThemeFunction()">
+                        </div>
+                        <div class="Addition_block_langs">
+                            <input type="button" class="main_block_blok_TopMenu_Addition_langs_1 Lang-name" id="Langs" value="RU" onclick="clickHeddenFuncton()">
+                            <div class="hidden_block_1" id="hidden_block">
+                                <div class="hidden_block_flex">
+                                    <div class="hidden_block_leng_1_img RU" id="hidden_block_id1" onmouseover="onmouseover_1(this)" onmouseout="onmouseout_1_1(this)" ><div id="Ru" class="_block_RU"onclick="defineLang(this,document.querySelector('.Lang-name'))"></div></div><!--hidden_block_leng_1_img-->
+                                    <div class="hidden_block_leng_1_RU" id="HiddenBlockLengRU" >Русский</div>
+                                </div>
+                                <div class="hidden_block_flex">
+                                    <div class="hidden_block_leng_1_img ENG" id="hidden_block_id2" onmouseover="onmouseover_2(this)" onmouseout="onmouseout_2_2(this)" ><div id="Eng" class="_block_ENG"onclick="defineLang(this,document.querySelector('.Lang-name'))"></div></div>
+                                    <div class="hidden_block_leng_1_ENG  _eng" id="HiddenBlockLengENG" >English</div>
+                                </div>
+                                <div class="hidden_block_flex">
+                                    <div class="hidden_block_leng_1_img Chinese" id="hidden_block_id3" onmouseover="onmouseover_3(this)" onmouseout="onmouseout_3_3(this)" ><div id="中國人" class="_block_Chinese"onclick="defineLang(this,document.querySelector('.Lang-name'))"></div></div>
+                                    <div class="hidden_block_leng_1_Chinese _Chinese" id="HiddenBlockLengChinese" >中國人</div>
+                                </div>
+                                <div class="hidden_block_flex">
+                                    <div class="hidden_block_leng_1_img Spanish" id="hidden_block_id4" onmouseover="onmouseover_4(this)" onmouseout="onmouseout_4_4(this)" ><div id="Spanish" class="_block_Spanish"onclick="defineLang(this,document.querySelector('.Lang-name'))"></div></div>
+                                    <div class="hidden_block_leng_1_Spanish" id="HiddenBlockLengSpanish" >español</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_block_Buttom_FlexBox">
+                <div class="main_block_Buttom_ main_block_Buttom_THEtest">
+                    <div class="main_block_Buttom_Arrow" id="arrow"></div>
+                    <a class="main_block_Buttom_buttomExit LengText-back" id="buttomExit">назад</a>
+                </div>
+            </div>
+            <form method="" action="" class="main_block_form" id="">
+            <div class="main_block_form_flex_">
+                <h1 id="TextLogin" class="main_block_form_h1 LengText-forgotPastext">Забыли пароль?</h1>
+                <p id="TextButtomLogin" class="main_block_form_InformationalText LengText-Dontworryfixitquickly">Не беда, востановим во мгновение ока</p>
+                <div class="main_block_form_flex">
+                    <div class="main_block_form_textPassword_boxFlexebox">
+                        <div class="main_block_form_textUsername_box main_block_form_textUsername_boxTHEtest">
+                            <input type="email" class="main_block_form_textName main_block_form_input_1 main_block_form_input_1THEtest2 Input_Your_Password forgotPassIndexBut LengText-email " id="" placeholder="Ваша почта" onmouseup="functionForgotPass(this)" onclick="functionForgotPass(this)" onmousemove="functionForgotPass(this)" onchange="functionForgotPass(this)">
+                        </div>
+                    </div>
+                    <div class="child_element_flexTHEtest">
+                        <div class="child_element_flex child_element_flexTHEtest2">
+                            <input type="button" class="main_block_form_button main_block_form_input_1 main_block_form_input_1THEtest3 ForgotPassButContinue Input_Your_PassButContinue LengText-ProceedSub" id="" value="Продолжить" onclick="loc(document.querySelector('.forgotPassIndexBut'))">
+                        </div>
+                    </div>
+                </div>
+                <div class="regesterText_box">
+                    <p id="regesterText" class="regesterText LengText-Question-RememberedPas">Вспомнили пароль?  <div><a id="" href="index.html" class="regesterTextLink LengText-Autoriz">Авторизуйтесь</a></div></p>
+                </div>
+            </div>
+            </form>
+            <div class="main_block_footer">
+                <div class="main_block_footer_boxs">
+                    <div class="main_block_footer_box">
+                        <a class="main_block_footer_box_text1 LengText-PrivacyPolicy" id="footer_box_text1" href="#">Политика конфидециальности</a>
+                    </div>
+                    <div class="main_block_footer_box">
+                        <a class="main_block_footer_box_text1 LengText-TermsOfUse" id="footer_box_text2" href="#">Условия пользования</a>
+                    </div>
+                </div>
+                <div class="main_block_footer_box_text12 lawTextKai LengText-WhiRigh">
+                    ©2021 КНИТУ КАИ. Все права защищены
+                </div>
+            </div>
+        </div>
+        <script src="../scripts_main/hidden_block_leng.js"></script>
+    <script src="../scripts_main/Them.js"></script>
+    <script src="../scripts_main/ChangeEay.js"></script>
+    <script src="../scripts_main/mouseChange.js"></script>
+    <script src="../scripts_main/translate.js"></script>
+    <script src="../scripts_main/changeInputline.js"></script>
+    <script src="../scripts_main/forgotPAssScript.js"></script>
+    </body>
+</html>

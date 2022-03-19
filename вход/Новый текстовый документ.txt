@@ -1,0 +1,15 @@
+font-family: "Averta CY";
+font-family: "Inter";
+
+@font-face {
+    font-family: 'Averta CY'; /*a name to be used later*/
+    src: url('../styles/Averta Cyrillic Regular.otf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Averta CY EB'; /*a name to be used later*/
+    src: url('../styles/Averta Cyrillic ExtraBold.otf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Averta CY SB'; /*a name to be used later*/
+    src: url('../styles/Averta Cyrillic SemiBold.otf'); /*URL to font*/
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Hidden_inputBoxText_list_country_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin:0px 0px 15px 0px;
+}
+.Hidden_inputBoxText_list_country_img{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+.Hidden_inputBoxText_list_country{
+    width: 483px;
+    height: 328px;
+    overflow: auto;
+}
+
+.inputBoxText_list_country{
+    width: 483px;
+    height: 50px;
+}
+.input_list_country{
+    border: 2px solid green;
+    border-radius: 12px;
+    width: 460px;
+    height: 40px;
+    padding: 0px 10px;
+}
