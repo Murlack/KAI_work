@@ -919,6 +919,16 @@
 .weHAve_new_CardLink_Inf_boxh3{
     margin-bottom: 10px;
 }
+.footer_boxHR{
+    width: 100%;
+    margin: 200px 0 50px 0;
+}
+.footer_hr{
+    width: 100%;
+    border: 0px;
+    height: 2px;
+    background-color: #424450;
+}
 @media screen and (min-width:1900px){
     .doYOUHAVEQUES_boxe{
         width: 530px;
