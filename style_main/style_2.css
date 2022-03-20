@@ -870,10 +870,14 @@
     min-width: 320px;
     width: 360px;
 }
+.shadowH{
+    transition: 0.2s;
+}
 .shadowH:hover{
     box-shadow: 0px 18px 42px 11px rgba(255, 255, 255, 0.09);
     margin-top: 5px;
     margin-bottom: 25px;
+
 }
 .weHAve_new_CardLink_boxStart_img2{
     min-width: 320px;
