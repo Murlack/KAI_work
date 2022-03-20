@@ -867,8 +867,11 @@
     row-gap: 15px;
 }
 .weHAve_new_CardLinkBox{
-    min-width: 320px;
+    /* min-width: 320px; */
     width: 360px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .shadowH{
     transition: 0.2s;
@@ -1044,10 +1047,20 @@
     .header2_boxText_boxH1{
         font-size: 250%;
     }
+    .sizeBox{
+        width: 300px;
+    }
 }
+
 @media screen and (max-width:370px) {
     .header2_boxText_boxH1{
         font-size: 200%;
+    }
+}
+@media screen and (max-width:320px){
+    .sizeBox{
+        width: 288px;
+        min-width: 288px;
     }
 }
 @media screen and (max-width:500px) {
