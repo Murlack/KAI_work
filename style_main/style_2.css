@@ -929,6 +929,111 @@
     height: 2px;
     background-color: #424450;
 }
+.footer{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:20px;
+}
+.footer_boxs_boxH3{
+    margin-bottom: 15px;
+}
+.footer_boxs_H3{
+    color: var(--colorText);
+    font-size: 16px;
+    font-family: var(--font-inter);
+}
+.nowVW{
+    font-size: 15px;
+}
+.marginTOP_70px{
+    margin-top: 70px;
+}
+.footer_boxs_textadrp{
+    color: var(--colorText);
+    font-size: 14px;
+    font-family: var(--font-inter);
+    margin-bottom: 10px;
+}
+.footer_boxs_3{
+    width: 50%;
+}
+.footer_boxs_P{
+    color: var(--colorText);
+    font-size: 13px;
+    font-family: var(--font-inter);
+    margin-bottom: 10px;
+}
+.footer_boxs_links_box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer_boxs_links_box_l{
+    width: 24px;
+    height: 24px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer_boxs_links_box_l1{
+    background-image: url(../img_main/tvit.svg);
+}
+.footer_boxs_links_box_l2{
+    background-image: url(../img_main/fecb.svg);
+}
+.footer_boxs_links_box_l3{
+    background-image: url(../img_main/YouTube.svg);
+}
+.footer_boxs_links_box_l4{
+    background-image: url(../img_main/Artboard.svg);
+}
+.footer_boxs_links_box_l5{
+    background-image: url(../img_main/Instagram.svg);
+}
+.footer_FM{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: center;
+    height: 70px;
+}
+.footer_FM1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.footer_FM1_Logo{
+    width: 56px;
+    height: 56px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img_main/footerLOGO.svg);
+    margin-right: 20px;
+}
+.footer_FM1_p{
+    color: var(--colorText);
+    font-size: 16px;
+    font-family: var(--font-inter);
+}
+.footer_FM2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.link_FM2Text{
+    color: var(--colorText);
+    font-size: 16px;
+    font-family: var(--font-inter);
+}
 @media screen and (min-width:1900px){
     .doYOUHAVEQUES_boxe{
         width: 530px;
@@ -1081,3 +1186,6 @@
 /* @media screen and (min-width:) {
     
 } */
+.nowVW{
+    font-size: 15px;
+}
