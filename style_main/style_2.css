@@ -1034,6 +1034,21 @@
     font-size: 16px;
     font-family: var(--font-inter);
 }
+.hideMenu_in_Proffil{
+    position: absolute;
+    top: 95px;
+    right: 10%;
+    width: 344px;
+    height: 348px;
+    background: #17181E;
+    border: 1px solid #3A3A3A;
+    box-sizing: border-box;
+    box-shadow: 0px 37px 50px -21px rgba(0, 0, 0, 0.14);
+    border-radius: 17.79px;
+}
+.noMargin{
+    margin: 20px 0;
+}
 @media screen and (min-width:1900px){
     .doYOUHAVEQUES_boxe{
         width: 530px;
