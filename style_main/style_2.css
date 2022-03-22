@@ -115,6 +115,8 @@
 }
 .menu_links_boxs_links_link:hover{
     background-color: #4A4A4A;
+    transition: 0.4s;
+    cursor: pointer;
 }
 .buttonsInHeader{
     width: 20%;
@@ -142,6 +144,9 @@
     background-image: url('../img_main/kubsMenu.svg');
     background-repeat: no-repeat;
     background-size: contain;
+}
+.buttonsInHeader_box_usButton:hover{
+    cursor: pointer;
 }
 .noStyelButt{
     background-color: rgba(0,0,0,0);
@@ -1045,9 +1050,43 @@
     box-sizing: border-box;
     box-shadow: 0px 37px 50px -21px rgba(0, 0, 0, 0.14);
     border-radius: 17.79px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.hideMenu_in_Proffil_litleBlock{
+    width: 80%;
 }
 .noMargin{
     margin: 20px 0;
+}
+.hideMenu_in_Proffil_box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.hideMenu_in_Proffil_boxIMG{
+    margin-right: 13px;
+}
+.marginbottom10px{
+    margin-bottom: 10px;
+}
+.textstule{
+    color: #C9D1D9;
+    font-size: 14px;
+    font-family: var(--font-inter);
+}
+.hideMenu_in_Proffil_boxNAME{
+    color: #fff;
+}
+.hideMenu_in_Proffil_boxEmail{
+    font-size: 12px;
+}
+.hideMenu_in_Proffil_box_buttHThem{
+    height: 50px;
+}
+.hideMenu_in_Proffil_boxMURGBOTT{
+    margin-bottom: 20px;
 }
 @media screen and (min-width:1900px){
     .doYOUHAVEQUES_boxe{
@@ -1180,6 +1219,11 @@
     .sizeBox{
         width: 300px;
     }
+    .hideMenu_in_Proffil{
+        width: 280px;
+        height: 290px;
+    }
+
 }
 
 @media screen and (max-width:370px) {
