@@ -302,7 +302,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 23px;
-    
+    transition: 0.4s;
+
     margin-bottom: 20px;
 }
 .AircraftIndustry1{
@@ -330,31 +331,20 @@
     background-image: url('../img_main/seeallspecialist.svg');
     text-align: center;
 }
-/* .AircraftIndustry1{
-    background-image: url('../img_main/aircraft1TEST.svg');
+.standartStyleForimgSp:hover{
+    box-shadow: 0px 18px 42px 11px rgba(255, 255, 255, 0.09);
+    margin: 0px 10px;
+    cursor: pointer;
 }
-.AircraftIndustry2{
-    background-image: url('../img_main/aircraft2TEST.svg');
+.imo_advantage_Boxinf_imgHOVER:hover{
+    box-shadow: 0px 18px 42px 11px rgba(255, 255, 255, 0.09);
+    margin: 0px 10px;
+    cursor: pointer;
+    transition: 0.3s;
 }
-.AircraftIndustry3{
-    background-image: url('../img_main/aircraft3TEST.svg');
+.cursorP:hover{
+    cursor: pointer;
 }
-.AircraftEngines{
-    background-image: url('../img_main/dvigLetApTEST.svg');
-}
-.infocommunicationTechnologies{
-    background-image: url('../img_main/infoCAMUNTEST.svg');
-}
-.AircraftOperation1{
-    background-image: url('../img_main/ecspluatacia1TEST.svg');
-}
-.AircraftOperation2{
-    background-image: url('../img_main/ecspluatacia2TEST.svg');
-}
-.SeeAllPrograms{
-    background-image: url('../img_main/seeallspecialistTEST.svg');
-    text-align: center;
-} */
 .color000000{
     color: #000000;
 }
@@ -670,6 +660,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 40px;
 }
 .doYOUHAVEQUES_boxe_h1{
     font-family: var(--font-averta-cy-EB);
@@ -1050,7 +1041,7 @@
     box-sizing: border-box;
     box-shadow: 0px 37px 50px -21px rgba(0, 0, 0, 0.14);
     border-radius: 17.79px;
-    /* display: flex; */
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -1107,12 +1098,30 @@
         margin-left: 0px;
     }
 }
+@media screen and (min-width:1062){
+    .menu_links_boxs_links{
+        display: flex;
+    }
+}
 @media screen and (max-width:1062px) {
     .menu_links_box_displayWhere700px{
         display: flex;
     }
     .menu_links_boxs_links{
         display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        width: 180px;
+        border: 1px solid #F3F3F3;
+        border-radius: 5px;
+        background-color: #17181E;
+        padding: 5px;
+        align-items: baseline;
+        transition: 1s;
+    }
+    .menu_links_boxs_links_link{
+        margin: 5px 0px;
     }
     .buttonsInHeader{
         width: 30%;
