@@ -954,7 +954,7 @@
     margin-bottom: 10px;
 }
 .footer_boxs_3{
-    width: 50%;
+    /* width: 50%; */
 }
 .footer_boxs_P{
     color: var(--colorText);
@@ -1009,7 +1009,7 @@
     width: 56px;
     height: 56px;
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-image: url(../img_main/footerLOGO.svg);
     margin-right: 20px;
@@ -1024,6 +1024,7 @@
     justify-content: center;
     align-items: center;
     column-gap: 10px;
+    flex-wrap: wrap;
 }
 .link_FM2Text{
     color: var(--colorText);
@@ -1078,6 +1079,58 @@
 }
 .hideMenu_in_Proffil_boxMURGBOTT{
     margin-bottom: 20px;
+}
+.displayon{
+    display: none;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.buttonsInHeader_box_search_Text{
+    color: #fff;
+    font-size: 14px;
+    font-family: var(--font-inter);
+    margin-left: 5px;
+}
+.serchON{
+    position: fixed;
+    top: -102px;
+    left: 0px;
+    width: 100%;
+    height: 0%;
+    background-color: #000212;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainSerchON{
+    width: 100%;
+
+}
+.serchON_box{
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    grid-area: b0;
+    position: fixed;
+    top: 50%;
+    /* left: 30%; */
+}
+.serchON_box_input{
+    height: 20px;
+    width: 50%;
+    padding: 25px 10px 27px 50px;
+    border: 1px solid #31303C; 
+    border-radius: 93px;
+    color: #fff;
+    font-size: 20px;
+    font-family: var(--font-inter);
+    background-color: rgba(0,0,0,0);
+}
+.serchON_box_img{
+    position: relative;
+    left: 40px;
 }
 @media screen and (min-width:1900px){
     .doYOUHAVEQUES_boxe{
@@ -1247,8 +1300,11 @@
     }
 }
 @media screen and (max-width:500px) {
-    .displayNoneWhere{
+    .displayof{
         display: none;
+    }
+    .displayon{
+        display: flex;
     }
 }
 /* @media screen and (min-width:) {
